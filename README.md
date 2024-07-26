@@ -32,7 +32,6 @@ NEXT_PUBLIC_API_URL=https://your-render-app.onrender.com
 **4. Run the development server:**
 ```
 npm run dev
-
 ```
 ## License
 This project is licensed under the MIT License.
