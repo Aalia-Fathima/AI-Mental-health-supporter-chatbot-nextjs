@@ -34,12 +34,6 @@ NEXT_PUBLIC_API_URL=https://your-render-app.onrender.com
 npm run dev
 
 ```
-
-## Usage
-- Visit your deployed Netlify site.
-- Interact with the chatbot by selecting predefined prompts or typing your messages.
-- The chatbot will respond with supportive messages and coping strategies.
-
 ## License
 This project is licensed under the MIT License.
 
