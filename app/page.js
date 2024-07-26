@@ -23,8 +23,7 @@ export default function Home() {
 
   const handleSendMessage = async (msg) => {
     if (!msg) return;
-
-    // const response = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/api/chat`, { message: msg });
+    
     const response = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/api/chat`, { message: msg });
     setChatHistory(response.data.chatHistory);
     setMessage('');
@@ -37,7 +36,6 @@ export default function Home() {
   };
 
   const handleClear = async () => {
-    // await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/api/clear`);
     await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/api/clear`);
     setChatHistory([]);
     setShowPrompts(true);
