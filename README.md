@@ -15,6 +15,24 @@ The Mental Health Support Chatbot offers users a safe space to discuss their fee
 **Client-side:** Deployed on [Netlify](https://www.netlify.com/)
 
 ## Installation
-
-
+**1. Clone the repository:**
+```
+git clone https://github.com/Aalia-Fathima/AI-Mental-health-supporter-chatbot-server.git
+cd AI-Mental-health-supporter-chatbot-server
+```
+**2. Install dependencies:**
+```
+npm install
+```
+**3. Set up environment variables:**
+Create a .env file in the root of the project:
+```
+GEMINI_API_KEY=your-gemini-api-key
+```
+**4. Start the server:**
+```
+node index.js
+```
+## License
+This project is licensed under the MIT License.
 
